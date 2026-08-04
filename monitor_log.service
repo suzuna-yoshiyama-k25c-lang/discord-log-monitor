@@ -1,0 +1,19 @@
+[Unit]
+Description=Discord Security Monitor Bot
+After=network-online.target mariadb.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/alma
+ExecStart=/usr/bin/python3 /home/alma/monitor_log.py
+EnvironmentFile=/etc/environment
+EnvironmentFile=/etc/monitor_log_discord.env
+Restart=on-failure
+RestartSec=5
+StartLimitIntervalSec=60
+StartLimitBurst=5
+User=root
+
+[Install]
+WantedBy=multi-user.target

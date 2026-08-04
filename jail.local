@@ -1,0 +1,25 @@
+[sshd]
+enabled = true
+port = ssh
+maxretry = 5
+bantime = 3600
+findtime = 600
+
+[apache-scan]
+enabled = true
+port = http,https
+filter = apache-custom-scan
+logpath = /var/log/httpd/access_log
+maxretry = 5
+findtime = 600
+bantime = 3600
+ignoreip = 127.0.0.1 学校のIPアドレス
+
+[dashboard-login]
+enabled = true
+port = http,https
+filter = dashboard-login
+logpath = /var/log/dashboard/login_fail.log
+maxretry = 5
+findtime = 10m
+bantime = 1h
