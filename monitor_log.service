@@ -5,8 +5,8 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/alma
-ExecStart=/usr/bin/python3 /home/alma/monitor_log.py
+WorkingDirectory=/home/YOUR_USERNAME
+ExecStart=/usr/bin/python3 /home/YOUR_USERNAME/monitor_log.py
 EnvironmentFile=/etc/environment
 EnvironmentFile=/etc/monitor_log_discord.env
 Restart=on-failure
