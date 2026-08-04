@@ -17,7 +17,7 @@ LOG_FILE = "/var/log/secure"
 
 EXCLUDE_USERS = {"root", "admin", "user", "ubuntu", "test"}
 APACHE_LOG_FILE = "/var/log/httpd/access_log"
-TRUSTED_IPS = {"198.144.141.44"}
+TRUSTED_IPS = {os.environ.get("TRUSTED_IP", "")}
 SUSPICIOUS_STATUS_CODES = {400, 401, 403, 404, 501}
 VALID_METHODS = {"GET", "POST", "HEAD", "PUT", "DELETE", "OPTIONS"}
 web_alert_counter = {}
