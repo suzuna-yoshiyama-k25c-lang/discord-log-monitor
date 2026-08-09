@@ -34,12 +34,19 @@ SSHの監視ログとグラフを、ダッシュボード上で時系列に確�
 <img width="1857" height="861" alt="1313d2f3-1786258583139_image" src="https://github.com/user-attachments/assets/832d9777-481f-4668-be3e-97cde87834e4" />
 
 
+攻撃元IPアドレスの国・組織別のランキングをグラフで可視化しています。
+
 <img width="204" height="197" alt="ec5b98a8-1786258761476_image" src="https://github.com/user-attachments/assets/5291b02e-6635-4905-89b4-9543d3102283" />
+
+
+
+ダッシュボードへのログイン画面です。IDとパスワードによる認証を行います。
 
 
 <img width="326" height="224" alt="940b66e4-1786258765546_image" src="https://github.com/user-attachments/assets/63b67905-e8ea-41e9-bebf-a6d27a76ce36" />
 
-`e`
+
+ログイン後、2段階認証（TOTP）のコード入力を求められます。
 
 
 
