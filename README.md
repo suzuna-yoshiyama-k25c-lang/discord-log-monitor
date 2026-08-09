@@ -21,3 +21,8 @@ SSHへのログイン試行があった際、Discordに送られる通知の例�
 
 
 SSHの監視ログとグラフを、ダッシュボード上で時系列に確認できます。
+
+<img width="1873" height="832" alt="dashboard_header_redacted_2" src="https://github.com/user-attachments/assets/99936687-f56a-4eb4-90b1-8fa3a22abdda" />
+
+
+
