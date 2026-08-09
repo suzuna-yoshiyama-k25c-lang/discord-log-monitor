@@ -24,5 +24,7 @@ SSHの監視ログとグラフを、ダッシュボード上で時系列に確�
 
 <img width="1873" height="832" alt="dashboard_header_redacted_2" src="https://github.com/user-attachments/assets/99936687-f56a-4eb4-90b1-8fa3a22abdda" />
 
+<img width="1920" height="952" alt="dashboard_browser_cropped2_1" src="https://github.com/user-attachments/assets/cc2b4455-4632-49b4-99c8-508ae87a04b1" />
+
 
 
