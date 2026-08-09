@@ -12,46 +12,35 @@ Linuxサーバーへの不正アクセスを検知・通知し、自動でブロ
 ### ⚠️ こだわりポイント（ボット対策）
 インターネット上には、SSHのログインを狙って無差別に攻撃を仕掛けてくる自動ボットが多数存在します。ログイン失敗をそのまま全て通知する設定にすると、これらのボットによる攻撃で通知が鳴り止まなくなってしまいます。そのため、ログイン失敗の通知は「自分の管理者アカウントを狙った失敗」のみに絞り込み、無差別なボット攻撃による失敗は記録だけ行い、通知はしないようにカスタマイズしてあります。
 
-<img width="703" height="841" alt="discord_ssh_alerts_redacted_1" src="https://github.com/user-attachments/assets/4309148d-2f7b-48d1-87b7-ea406aac172f" />
+## 📸 動作イメージ
+
+<img width="600" alt="discord_ssh_alerts_redacted_1" src="https://github.com/user-attachments/assets/4309148d-2f7b-48d1-87b7-ea406aac172f" />
 
 SSHへのログイン試行があった際、Discordに送られる通知の例です。
 
-
-<img width="1875" height="721" alt="dashboard_table_redacted_4" src="https://github.com/user-attachments/assets/8942af54-53b2-4c83-8720-b8cd4a063039" />
-
+<img width="600" alt="dashboard_table_redacted_4" src="https://github.com/user-attachments/assets/8942af54-53b2-4c83-8720-b8cd4a063039" />
 
 SSHの監視ログとグラフを、ダッシュボード上で時系列に確認できます。
 
-<img width="1873" height="832" alt="dashboard_header_redacted_2" src="https://github.com/user-attachments/assets/99936687-f56a-4eb4-90b1-8fa3a22abdda" />
+<img width="600" alt="dashboard_header_redacted_2" src="https://github.com/user-attachments/assets/99936687-f56a-4eb4-90b1-8fa3a22abdda" />
 
 ダッシュボードにアクセスすると、不正ログインの疑いがある場合にこのような警告バナーが表示されます。
 
-<img width="1920" height="952" alt="dashboard_browser_cropped2_1" src="https://github.com/user-attachments/assets/cc2b4455-4632-49b4-99c8-508ae87a04b1" />
+<img width="600" alt="dashboard_browser_cropped2_1" src="https://github.com/user-attachments/assets/cc2b4455-4632-49b4-99c8-508ae87a04b1" />
 
 ブラウザからダッシュボードにアクセスした際の画面全体です。
 
-
-<img width="1857" height="861" alt="1313d2f3-1786258583139_image" src="https://github.com/user-attachments/assets/832d9777-481f-4668-be3e-97cde87834e4" />
-
+<img width="600" alt="ranking_chart" src="https://github.com/user-attachments/assets/832d9777-481f-4668-be3e-97cde87834e4" />
 
 攻撃元IPアドレスの国・組織別のランキングをグラフで可視化しています。
 
-<img width="204" height="197" alt="ec5b98a8-1786258761476_image" src="https://github.com/user-attachments/assets/5291b02e-6635-4905-89b4-9543d3102283" />
-
-
+<img width="600" alt="login_screen" src="https://github.com/user-attachments/assets/5291b02e-6635-4905-89b4-9543d3102283" />
 
 ダッシュボードへのログイン画面です。IDとパスワードによる認証を行います。
 
-
-<img width="326" height="224" alt="940b66e4-1786258765546_image" src="https://github.com/user-attachments/assets/63b67905-e8ea-41e9-bebf-a6d27a76ce36" />
-
+<img width="600" alt="2fa_screen" src="https://github.com/user-attachments/assets/63b67905-e8ea-41e9-bebf-a6d27a76ce36" />
 
 ログイン後、2段階認証（TOTP）のコード入力を求められます。
-
-
-
-
-
 
 
 
