@@ -38,7 +38,8 @@ SSHの監視ログとグラフを、ダッシュボード上で時系列に確�
 
 ダッシュボードへのログイン画面です。IDとパスワードによる認証を行います。
 
-<img width="600" alt="2fa_screen" src="https://github.com/user-attachments/assets/63b67905-e8ea-41e9-bebf-a6d27a76ce36" />
+
+<img width="408" height="340" alt="login_screen_cropped" src="https://github.com/user-attachments/assets/4c0b0961-1f3b-4bec-841a-9f7aa63ca44f" />
 
 ログイン後、2段階認証（TOTP）のコード入力を求められます。
 
