@@ -15,3 +15,9 @@ Linuxサーバーへの不正アクセスを検知・通知し、自動でブロ
 <img width="703" height="841" alt="discord_ssh_alerts_redacted_1" src="https://github.com/user-attachments/assets/4309148d-2f7b-48d1-87b7-ea406aac172f" />
 
 SSHへのログイン試行があった際、Discordに送られる通知の例です。
+
+
+<img width="1875" height="721" alt="dashboard_table_redacted_4" src="https://github.com/user-attachments/assets/8942af54-53b2-4c83-8720-b8cd4a063039" />
+
+
+SSHの監視ログとグラフを、ダッシュボード上で時系列に確認できます。
