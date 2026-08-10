@@ -18,28 +18,22 @@ Linuxサーバーへの不正アクセスを検知・通知し、自動でブロ
 
 SSHへのログイン試行があった際、Discordに送られる通知の例です。
 
-<img width="600" alt="dashboard_table_redacted_4" src="https://github.com/user-attachments/assets/8942af54-53b2-4c83-8720-b8cd4a063039" />
-
-SSHの監視ログとグラフを、ダッシュボード上で時系列に確認できます。
-
-<img width="600" alt="dashboard_header_redacted_2" src="https://github.com/user-attachments/assets/99936687-f56a-4eb4-90b1-8fa3a22abdda" />
-
-ダッシュボードにアクセスすると、不正ログインの疑いがある場合にこのような警告バナーが表示されます。
-
-
-<img width="1857" height="861" alt="1313d2f3-1786258583139_image" src="https://github.com/user-attachments/assets/74fe57b2-243b-407f-84f8-77feac1eab79" />
-
-
-攻撃元IPアドレスの国・組織別のランキングをグラフで可視化しています。
-
 <img width="600" alt="login_screen" src="https://github.com/user-attachments/assets/5291b02e-6635-4905-89b4-9543d3102283" />
 
 ダッシュボードへのログイン画面です。IDとパスワードによる認証を行います。
-
 
 <img width="600" alt="2fa_screen_cropped" src="https://github.com/user-attachments/assets/8700e2a7-b10a-47bf-816c-387f8837a17e" />
 
 ログイン後、2段階認証（TOTP）のコード入力を求められます。
 
+<img width="600" alt="dashboard_header_redacted_2" src="https://github.com/user-attachments/assets/99936687-f56a-4eb4-90b1-8fa3a22abdda" />
 
+ダッシュボードにアクセスすると、不正ログインの疑いがある場合にこのような警告バナーが表示されます。
 
+<img width="600" alt="dashboard_table_redacted_4" src="https://github.com/user-attachments/assets/8942af54-53b2-4c83-8720-b8cd4a063039" />
+
+SSHの監視ログとグラフを、ダッシュボード上で時系列に確認できます。
+
+<img width="600" alt="ranking_chart" src="https://github.com/user-attachments/assets/74fe57b2-243b-407f-84f8-77feac1eab79" />
+
+攻撃元IPアドレスの国・組織別のランキングをグラフで可視化しています。
