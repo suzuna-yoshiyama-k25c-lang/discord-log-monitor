@@ -31,7 +31,7 @@ SSHの監視ログとグラフを、ダッシュボード上で時系列に確�
 ブラウザからダッシュボードにアクセスした際の画面全体です。
 
 
-<img width="661" height="157" alt="image" src="https://github.com/user-attachments/assets/07059acb-31f8-4241-815e-1ea6a493f883" />
+<img width="1857" height="861" alt="1313d2f3-1786258583139_image" src="https://github.com/user-attachments/assets/74fe57b2-243b-407f-84f8-77feac1eab79" />
 
 
 攻撃元IPアドレスの国・組織別のランキングをグラフで可視化しています。
