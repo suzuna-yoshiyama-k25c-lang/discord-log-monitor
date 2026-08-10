@@ -26,7 +26,9 @@ SSHの監視ログとグラフを、ダッシュボード上で時系列に確�
 
 ダッシュボードにアクセスすると、不正ログインの疑いがある場合にこのような警告バナーが表示されます。
 
-<img width="600" alt="dashboard_browser_cropped2_1" src="https://github.com/user-attachments/assets/cc2b4455-4632-49b4-99c8-508ae87a04b1" />
+
+<img width="1321" height="313" alt="newtable_redacted_check_2" src="https://github.com/user-attachments/assets/9d70c721-9adc-450f-8d94-a626ebde0991" />
+
 
 ブラウザからダッシュボードにアクセスした際の画面全体です。
 
