@@ -24,7 +24,7 @@ Linuxサーバーへの不正アクセスを検知・通知し、自動でブロ
 - 2段階認証: TOTP（OTPHPライブラリ）
 - IPアドレスの国・組織情報取得: ip-api.com
 
-## 📸 動作イメージ
+## 📸 動作イメージ 
 
 <img width="600" alt="discord_ssh_alerts_redacted_1" src="https://github.com/user-attachments/assets/4309148d-2f7b-48d1-87b7-ea406aac172f" />
 
